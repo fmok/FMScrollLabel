@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FMScrollLabel.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    FMScrollLabel *scrollLabel = [[FMScrollLabel alloc] initWithFrame:CGRectMake(20.f, 100.f, [UIScreen mainScreen].bounds.size.width-40.f, 40.f)];
+    [scrollLabel commitInitWithBackgroundColor:[UIColor redColor] textColor:[UIColor blueColor] textFont:[UIFont systemFontOfSize:20.f]];
+    [self.view addSubview:scrollLabel];
+    scrollLabel.text = @"每天上午9:00系统发放100LUK，抢完为止！";
+
 }
 
 

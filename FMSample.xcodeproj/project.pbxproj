@@ -16,6 +16,7 @@
 		573F2E52206DD6D20011C77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F2E51206DD6D20011C77A /* main.m */; };
 		573F2E5C206DD6D20011C77A /* FMSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F2E5B206DD6D20011C77A /* FMSampleTests.m */; };
 		573F2E67206DD6D20011C77A /* FMSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F2E66206DD6D20011C77A /* FMSampleUITests.m */; };
+		573F2E77206DD6FA0011C77A /* FMScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F2E76206DD6FA0011C77A /* FMScrollLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		573F2E62206DD6D20011C77A /* FMSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573F2E66206DD6D20011C77A /* FMSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMSampleUITests.m; sourceTree = "<group>"; };
 		573F2E68206DD6D20011C77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573F2E75206DD6FA0011C77A /* FMScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollLabel.h; sourceTree = "<group>"; };
+		573F2E76206DD6FA0011C77A /* FMScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		573F2E3E206DD6D20011C77A /* FMSample */ = {
 			isa = PBXGroup;
 			children = (
+				573F2E74206DD6FA0011C77A /* FMScrollLabel */,
 				573F2E3F206DD6D20011C77A /* AppDelegate.h */,
 				573F2E40206DD6D20011C77A /* AppDelegate.m */,
 				573F2E42206DD6D20011C77A /* ViewController.h */,
@@ -133,6 +137,15 @@
 				573F2E68206DD6D20011C77A /* Info.plist */,
 			);
 			path = FMSampleUITests;
+			sourceTree = "<group>";
+		};
+		573F2E74206DD6FA0011C77A /* FMScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				573F2E75206DD6FA0011C77A /* FMScrollLabel.h */,
+				573F2E76206DD6FA0011C77A /* FMScrollLabel.m */,
+			);
+			path = FMScrollLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 				573F2E4A206DD6D20011C77A /* FMSample.xcdatamodeld in Sources */,
 				573F2E52206DD6D20011C77A /* main.m in Sources */,
 				573F2E41206DD6D20011C77A /* AppDelegate.m in Sources */,
+				573F2E77206DD6FA0011C77A /* FMScrollLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
